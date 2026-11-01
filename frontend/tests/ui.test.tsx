@@ -27,6 +27,8 @@ async function opsLogin(user: ReturnType<typeof userEvent.setup>, role?: RegExp)
   await user.type(screen.getByLabelText('Staff access code'), 'fe-test-code')
   await user.click(screen.getByTestId('ops-login'))
   await screen.findByLabelText('Operations navigation', undefined, T)           // post-login landing = the page originally requested
+  const dismiss = screen.queryByTestId('dismiss-ops-demo-notice')
+  if (dismiss) await user.click(dismiss)
 }
 const signOut = async (user: ReturnType<typeof userEvent.setup>) => { await user.click(await screen.findByRole('button', { name: /Sign out/ })) }
 
@@ -167,6 +169,7 @@ describe('operations console UI against the real backend', () => {
     const q = await c.customer.submitQuote(sc)
     expect(q.status).toBe('REFERRED')
     renderApp('/ops/underwriting')                                                        // ops session persists from the previous test
+    await user.click(await screen.findByTestId('dismiss-ops-demo-notice'))
     await screen.findByRole('heading', { name: /Underwriting review queue/ }, T)
     await screen.findByText(/Required authority/, undefined, T)
     await user.click(screen.getAllByRole('link', { name: 'Quotes' })[0])
@@ -186,6 +189,7 @@ describe('operations console UI against the real backend', () => {
   it('role-gated data page and route guards', async () => {
     const user = userEvent.setup()
     renderApp('/ops/data')
+    await user.click(await screen.findByTestId('dismiss-ops-demo-notice'))
     await screen.findByRole('heading', { name: 'Data generation & validation' }, T)
     expect(screen.getByText(/Only the Administrator role can regenerate data/)).toBeInTheDocument()
     expect(screen.getByTestId('generate')).toBeDisabled(); expect(screen.queryByTestId('run-validation')).not.toBeInTheDocument()   // analyst cannot validate

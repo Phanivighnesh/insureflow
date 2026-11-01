@@ -21,7 +21,7 @@ export function OpsLogin() {
       <fieldset><legend className="mb-2 text-sm font-medium">Role</legend><div className="space-y-2">{ROLES.map(([r, l, d]) => <label key={r} className={`flex cursor-pointer items-start gap-3 rounded-lg border p-3 text-sm ${role === r ? 'border-brand-500 bg-brand-50' : 'border-slate-200'}`}>
         <input type="radio" name="role" checked={role === r} onChange={() => setRole(r)} aria-label={l} className="mt-1" /><span><b>{l}</b><br /><span className="text-slate-500">{d}</span></span></label>)}</div></fieldset>
       <Field label="Display name (optional)"><Input aria-label="Display name" value={name} onChange={(e) => setName(e.target.value)} /></Field>
-      <Field label="Staff access code" required hint="Demo environment: default code is insureflow-demo (set STAFF_ACCESS_CODE on the server to change it)."><Input aria-label="Staff access code" type="password" value={code} onChange={(e) => setCode(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && go()} /></Field>
+      <Field label="Staff access code" required hint="Demo environment: default code is insureflow-demo"><Input aria-label="Staff access code" type="password" value={code} onChange={(e) => setCode(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && go()} /></Field>
       <Button className="w-full" loading={busy} onClick={go} data-testid="ops-login">Sign in</Button>
       <p className="text-xs text-slate-500">Demo-session authentication, not production auth. Customer? <Link className="text-brand-600 underline" to="/login">Go to the customer portal</Link></p></CardBody></Card></div></div>
 }

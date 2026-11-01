@@ -1,5 +1,10 @@
 import { render, screen } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
+import { MemoryRouter } from 'react-router-dom'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { AuthProvider } from '../src/auth/AuthContext'
+import { ToastProvider } from '../src/components/ui'
+import { OpsLogin } from '../src/pages/ops/Overview'
 import {
   BarCard,
   LineCard,
@@ -120,6 +125,29 @@ describe('Chart label formatting and X-axis rendering', () => {
 
     render(<PieCard title="Empty Pie" data={{}} />)
     expect(screen.getByText('Empty Pie')).toBeInTheDocument()
+  })
+
+  it('renders operations login with exact demo access code hint text without parenthetical note', () => {
+    const qc = new QueryClient()
+
+    render(
+      <QueryClientProvider client={qc}>
+        <MemoryRouter>
+          <AuthProvider>
+            <ToastProvider>
+              <OpsLogin />
+            </ToastProvider>
+          </AuthProvider>
+        </MemoryRouter>
+      </QueryClientProvider>
+    )
+
+    expect(
+      screen.getByText('Demo environment: default code is insureflow-demo')
+    ).toBeInTheDocument()
+    expect(
+      screen.queryByText(/set STAFF_ACCESS_CODE on the server/i)
+    ).not.toBeInTheDocument()
   })
 })
 

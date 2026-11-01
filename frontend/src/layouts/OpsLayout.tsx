@@ -3,7 +3,7 @@ import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { AlertTriangle, Bot, Building2, ClipboardCheck, Database, FileText, FilePenLine, LayoutDashboard, LogOut, PanelLeftClose, PanelLeftOpen, RefreshCw, ScrollText, ShieldCheck, Users, FileSearch } from 'lucide-react'
 import { api, useAuth } from '../auth/AuthContext'
-import { Badge, Button, DemoBanner, cn } from '../components/ui'
+import { Badge, Button, Modal, cn } from '../components/ui'
 import { title } from '../lib/format'
 import { BrandLogo } from '../components/BrandLogo'
 
@@ -18,9 +18,20 @@ export default function OpsLayout() {
   const { session, logout } = useAuth()
   const nav = useNavigate()
   const [collapsed, setCollapsed] = useState(false)
+  const [showDemoNotice, setShowDemoNotice] = useState(true)
   const pending = useQuery({ queryKey: ['ops', 'summary'], queryFn: () => api.ops.summary(), refetchInterval: 15000 })
   return <div className="flex min-h-screen flex-col">
-    <DemoBanner text="DEMO ENVIRONMENT — operations console over synthetic data. Not production authentication." />
+    <Modal
+      open={showDemoNotice}
+      onClose={() => setShowDemoNotice(false)}
+      title="Demo Environment"
+      footer={<Button onClick={() => setShowDemoNotice(false)} data-testid="dismiss-ops-demo-notice">Got it</Button>}
+    >
+      <div className="space-y-2 text-sm text-slate-600">
+        <p className="font-medium text-slate-800">DEMO ENVIRONMENT — operations console over synthetic data. Not production authentication.</p>
+        <p className="text-xs text-slate-500">All customer profiles, quotes, policies, and underwriting decisions in this operations console are synthetic demonstrations created for evaluation.</p>
+      </div>
+    </Modal>
     <div className="flex flex-1">
       <aside className={cn('sticky top-0 hidden h-screen shrink-0 flex-col border-r border-slate-200 bg-white transition-all md:flex', collapsed ? 'w-16' : 'w-60')} aria-label="Operations navigation">
         <div className="flex items-center gap-2 border-b border-slate-100 px-4 py-4 text-lg font-semibold text-brand-700"><BrandLogo size="md" className="shrink-0" />{!collapsed && 'InsureFlow Ops'}</div>

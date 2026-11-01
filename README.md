@@ -4,6 +4,17 @@ AI-assisted insurance underwriting and policy lifecycle platform: a customer por
 
 ---
 
+## Live Demonstration Environment
+
+InsureFlow is publicly deployed and accessible at the following URLs:
+
+- **Live Application:** https://insureflow-six.vercel.app/
+- **Backend API:** https://insureflow-api-tpmy.onrender.com
+
+The primary application entry point is the **Live Application** URL above, which hosts the unified customer portal and operations console. The **Backend API** provides the underlying REST services and interactive Swagger documentation at `https://insureflow-api-tpmy.onrender.com/docs`.
+
+---
+
 ## Status
 
 See `docs/PROJECT_STATUS.md` and `docs/REQUIREMENTS_TRACEABILITY.md` for full requirement tracking.
@@ -11,12 +22,12 @@ See `docs/PROJECT_STATUS.md` and `docs/REQUIREMENTS_TRACEABILITY.md` for full re
 | Component / Subsystem | Status | Details |
 |---|---|---|
 | Business rules, engines, workflow, policy lifecycle | Complete (Verified) | Pure deterministic Python engines in `backend/app/engines/` covered by unit tests. |
-| REST API (64 endpoints), RBAC, Alembic migrations | Complete (Verified) | SQLite default with verified migrations 0001-0003; PostgreSQL DDL compiles. |
+| REST API (64 endpoints), RBAC, Alembic migrations | Complete (Verified) | SQLite default with verified migrations 0001-0004; PostgreSQL DDL compiles. |
 | Synthetic data generation (3,000 / 4,000 / 2,000 / 1,200) | Complete (Verified) | Fixed seed 20261022; 8 labelled anomaly types; full reproducibility across 42 files. |
 | Customer portal (React) | Complete (Verified) | Application wizard, dynamic quote results, demo payment, account dashboard. |
 | Operations console (React) | Complete (Verified) | Overview metrics, records management, underwriting referrals queue, governance. |
 | Underwriting AI Copilot (`/ops/copilot`) | Complete (Verified) | Groq `openai/gpt-oss-20b` integration with offline deterministic template fallback and anti-hallucination guard. |
-| Cloud deployment (Vercel / Render / Neon) | Configured (Not Deployed) | Deployment manifests (`Dockerfile`, `render.yaml`, `vercel.json`) prepared; cloud deployment pending. |
+| Cloud deployment (Vercel / Render / PostgreSQL) | Complete (Deployed) | Production frontend deployed to Vercel; containerized FastAPI backend and PostgreSQL database deployed to Render. |
 
 ---
 
@@ -186,6 +197,26 @@ python -m app.data_generator --scale full --db sqlite:///./insureflow.db --out .
 # Execute reproducibility check (runs generator twice with fixed seed 20261022 and compares hashes)
 python -m app.data_generator --seed 20261022 --scale full --repro-check
 ```
+
+### Generating Synthetic Data Through the Operations Portal
+
+The Operations Portal provides a graphical interface for generating synthetic insurance datasets directly from the web browser, offering an interactive alternative to the command-line interface. Users do not need access to a terminal or local Python environment when utilizing this feature.
+
+This capability is fully supported in both the locally running application and the deployed production environment on Vercel. Generated records are immediately stored in the backend database (SQLite in development, PostgreSQL in production) and become accessible across both the customer portal and the operations console.
+
+#### Step-by-Step Generation Workflow
+
+1. **Sign In as Administrator:** Navigate to `/ops/login` in the Operations Portal. Select the **Administrator** role, enter staff passcode `insureflow-demo`, and sign in. (Only users with the Administrator role hold the authority required to regenerate data.)
+2. **Open Data & Validation:** From the operations console sidebar, select **Data & validation** (`/ops/data`).
+3. **Configure Generation Parameters:**
+   - **Scale:** Select either `Starter` (~150 applicants, 200 quotes, 100 policies, 60 renewals; completes in seconds) or `Full` (3,000 applicants, 4,000 quotes, 2,000 policies, 1,200 renewals; completes in approximately 2 minutes).
+   - **Random Seed:** Specify an integer PRNG seed (default: `20261022`) to ensure deterministic output.
+   - **Inject Labelled Anomalies:** Check or uncheck whether to inject synthetic data quality issues and policy violations. (Ground truth labels are stored in a dedicated evaluation table isolated from underwriting engines.)
+4. **Initiate Generation:** Click the **Generate dataset** button.
+5. **Acknowledge Destructive Overwrite:** A confirmation modal opens warning that dataset regeneration permanently replaces all existing applicants, quotes, policies, endorsements, renewals, audit records, and demo submissions. Check the box labeled *"I understand this cannot be undone"* and click **Delete & regenerate**.
+6. **Automatic Background Processing:** The backend executes the generation pipeline asynchronously in the background. The user interface displays an active status indicator and automatically refreshes live database row counts, metrics cards, and validation reports upon completion.
+
+*Note on Data Persistence:* This feature is designed for demonstration, testing, and evaluation. Because dataset regeneration is destructive, any customer applications or policies submitted during an interactive session will be replaced by the newly generated synthetic records.
 
 ### Dataset Scope and Volume
 
@@ -616,7 +647,7 @@ The platform implements the following verified workflows:
 ### Recommended Demonstration Sequence
 
 1. **Step 1: Customer Quote Submission**
-   - Navigate to `http://localhost:5173/login` (or live Vercel URL) and sign in as Customer.
+   - Navigate to `https://insureflow-six.vercel.app/login` (or `http://localhost:5173/login` locally) and sign in as Customer.
    - Click **Apply for Insurance** and select **Motor Comprehensive** (`PROD-001`).
    - Prefill application with sample values (Vehicle value: $35,000, 0 previous claims, clean record).
    - Review generated quote: note risk score calculation, factor breakdown, and transparent premium formula.
@@ -625,7 +656,7 @@ The platform implements the following verified workflows:
    - In the payment modal, select **Demonstration Payment**. Click **Simulate Failed Payment** to verify that no policy is issued without successful funds.
    - Click **Simulate Successful Payment**. Verify atomic policy issuance and note generated policy ID (`POL-2026-XXXXXX`).
 3. **Step 3: Operations Console and Underwriting Review**
-   - Open a separate browser tab or incognito window to `http://localhost:5173/ops/login`.
+   - Open a separate browser tab or incognito window to `https://insureflow-six.vercel.app/ops/login` (or `http://localhost:5173/ops/login` locally).
    - Sign in as **Operations Analyst** with passcode `insureflow-demo`.
    - Observe immediate visibility of the newly issued customer policy on the **Overview** metrics dashboard.
    - Navigate to **Underwriting Center** (`/ops/underwriting`) to view applications flagged for manual referral.
@@ -673,7 +704,7 @@ python -m app.data_generator --scale full --db sqlite:///./insureflow.db --out .
 2. **Demonstration Payments:** Payment processing is simulated. No real credit card or banking data is collected, stored, or transmitted.
 3. **Demo Session Authentication:** Session tokens are signed HMAC tokens intended for evaluation and demonstration. Production deployments with real user data should integrate with an enterprise identity provider (OAuth2, OIDC, or SAML).
 4. **Claims Processing:** Claims lifecycle processing is out of scope. Claims history is evaluated purely as an underwriting risk factor.
-5. **Live Cloud URL Requirement:** Deploying to public URLs on Vercel and Render requires linking your personal or organizational GitHub account to those services. All required deployment manifests (`render.yaml`, `backend/Dockerfile`, `frontend/Dockerfile`, `frontend/vercel.json`, `docker-compose.yml`) are fully prepared and tested in this repository.
+5. **Live Cloud Deployment:** The platform is deployed live at `https://insureflow-six.vercel.app/` (frontend on Vercel) and `https://insureflow-api-tpmy.onrender.com` (backend on Render with PostgreSQL). Deployment manifests (`render.yaml`, `backend/Dockerfile`, `frontend/Dockerfile`, `frontend/vercel.json`, `docker-compose.yml`) remain available for reproducible staging or self-hosted deployments.
 
 ---
 
