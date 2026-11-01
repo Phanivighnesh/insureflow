@@ -1,16 +1,48 @@
+import { useState } from 'react'
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { LogOut, UserCircle2 } from 'lucide-react'
 import { useAuth } from '../auth/AuthContext'
-import { Button, DemoBanner, cn } from '../components/ui'
+import { Button, cn } from '../components/ui'
 import { BrandLogo } from '../components/BrandLogo'
+import { DemoNoticeModal } from '../components/DemoNoticeModal'
 
 const links = [['/products', 'Products'], ['/dashboard', 'Dashboard'], ['/my/quotes', 'My applications'], ['/my/policies', 'My policies'], ['/my/renewals', 'Renewals']] as const
 
 export default function CustomerLayout() {
   const { session, isStaff, logout } = useAuth()
   const nav = useNavigate()
+  const [showDemoNotice, setShowDemoNotice] = useState(true)
   return <div className="flex min-h-screen flex-col">
-    <DemoBanner />
+    <DemoNoticeModal
+      open={showDemoNotice}
+      onClose={() => setShowDemoNotice(false)}
+      title="Welcome to the InsureFlow Demo"
+      buttonText="Got it"
+      buttonTestId="dismiss-customer-demo-notice"
+    >
+      <div className="space-y-3 text-sm text-slate-600">
+        <p className="font-medium text-slate-800">
+          This is an interactive demonstration environment designed for evaluating AI-assisted underwriting and policy lifecycles.
+        </p>
+        <ul className="space-y-1.5 text-xs text-slate-600">
+          <li className="flex items-start gap-2">
+            <span className="font-semibold text-brand-600">•</span>
+            <span><b>Synthetic products & data:</b> All insurance coverage options, eligibility rules, and premium rates are simulated.</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="font-semibold text-brand-600">•</span>
+            <span><b>Simulated payments:</b> Payments are demonstration-only. No real payment card or banking information is ever collected or processed.</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="font-semibold text-brand-600">•</span>
+            <span><b>Isolated session:</b> Applications and policies you create are isolated to your browser session.</span>
+          </li>
+        </ul>
+        <p className="text-xs text-slate-500">
+          Submitting an application will not create actual insurance coverage or execute financial transactions.
+        </p>
+      </div>
+    </DemoNoticeModal>
     <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
         <NavLink to="/" className="flex items-center gap-2 text-lg font-semibold text-brand-700"><BrandLogo size="md" />InsureFlow</NavLink>

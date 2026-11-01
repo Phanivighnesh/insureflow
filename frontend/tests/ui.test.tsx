@@ -36,6 +36,7 @@ describe('customer portal UI against the real backend', () => {
   it('login -> scenario -> wizard -> result -> accept -> failed payment -> successful payment -> policy', async () => {
     const user = userEvent.setup()
     renderApp('/dashboard')                                                              // protected: no session -> login
+    await user.click(await screen.findByTestId('dismiss-customer-demo-notice'))
     await screen.findByRole('heading', { name: 'Customer demo access' }, T)
     await user.type(screen.getByPlaceholderText('Demo Customer'), `Tester ${tag}`)
     await user.click(screen.getByTestId('customer-login'))
@@ -88,6 +89,7 @@ describe('customer portal UI against the real backend', () => {
   it('customer requests mid-term changes: a valid one is queued, an over-limit one is auto-rejected with the reason', async () => {
     const user = userEvent.setup()
     renderApp(`/policies/${shared.policyId}`)                                            // customer session persists from the previous test
+    await user.click(await screen.findByTestId('dismiss-customer-demo-notice'))
     await screen.findByTestId('policy-view', undefined, T)
     const request = async (amount: string) => {
       await user.click(screen.getByTestId('request-endorsement'))
@@ -110,6 +112,7 @@ describe('customer portal UI against the real backend', () => {
   it('decline shows reasons and no premium; submission with a missing field yields "More information needed"', async () => {
     const user = userEvent.setup()
     renderApp('/products')
+    await user.click(await screen.findByTestId('dismiss-customer-demo-notice'))
     await user.click(await screen.findByTestId('scenario-HIGH_RISK_DECLINE', undefined, T))
     await screen.findByTestId('prefill-notice', undefined, T)
     for (let i = 0; i < 3; i++) await user.click(screen.getByRole('button', { name: /Continue/ }))
@@ -213,6 +216,7 @@ describe('operations console UI against the real backend', () => {
   it('customer session cannot enter the operations area', async () => {
     const user = userEvent.setup()
     renderApp('/login')
+    await user.click(await screen.findByTestId('dismiss-customer-demo-notice'))
     await user.click(await screen.findByTestId('customer-login'))
     await screen.findByTestId('customer-dashboard', undefined, T)
     cleanup()
