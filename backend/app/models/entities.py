@@ -71,7 +71,7 @@ class RiskFactor(Base):
 
 class ApprovalAuthority(Base):
     __tablename__ = "approval_authorities"
-    authority_id: Mapped[str] = mapped_column(String(24), primary_key=True)         # AUTH-MOTOR-OPERATIONS_ANALYST
+    authority_id: Mapped[str] = mapped_column(String(48), primary_key=True)         # AUTH-MOTOR-OPERATIONS_ANALYST
     product_id: Mapped[str] = mapped_column(ForeignKey("products.product_id"))
     level: Mapped[str] = mapped_column(String(24))
     role: Mapped[str | None] = mapped_column(String(24))

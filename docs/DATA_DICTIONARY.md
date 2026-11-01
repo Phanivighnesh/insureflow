@@ -139,7 +139,7 @@ Units: monetary columns are `USD` with 2 decimals; dates ISO-8601; timestamps na
 
 | Column | Type | Required | Key | Allowed values / validation | Format / notes |
 |---|---|---|---|---|---|
-| authority_id | VARCHAR(24) | yes | PK |  |  |
+| authority_id | VARCHAR(48) | yes | PK |  |  |
 | product_id | VARCHAR(16) | yes | FK -> products.product_id |  |  |
 | level | VARCHAR(24) | yes |  |  |  |
 | role | VARCHAR(24) | no |  |  |  |
