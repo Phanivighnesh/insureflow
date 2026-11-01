@@ -1,0 +1,177 @@
+{
+ "checks": {
+  "allowed_enumerations": {
+   "checked": 16224,
+   "failed": 0
+  },
+  "coverage_limits": {
+   "checked": 2147,
+   "failed": 20
+  },
+  "date_ordering": {
+   "checked": 13435,
+   "failed": 10
+  },
+  "duplicate_applicants": {
+   "checked": 3000,
+   "failed": 0
+  },
+  "duplicate_payments": {
+   "checked": 2000,
+   "failed": 10
+  },
+  "foreign_key_integrity": {
+   "checked": 63977,
+   "failed": 10
+  },
+  "lifecycle_transitions": {
+   "checked": 2000,
+   "failed": 0
+  },
+  "policy_issuance_conditions": {
+   "checked": 2000,
+   "failed": 20
+  },
+  "policy_overlaps": {
+   "checked": 2000,
+   "failed": 20
+  },
+  "premium_reconciliation": {
+   "checked": 6815,
+   "failed": 34
+  },
+  "quote_progression": {
+   "checked": 3026,
+   "failed": 0
+  },
+  "renewal_eligibility": {
+   "checked": 1200,
+   "failed": 20
+  }
+ },
+ "evaluation": {
+  "detected": 130,
+  "edge_case_labels": {
+   "CANCELLED_POLICY": 142,
+   "DECLINED_RENEWAL": 354,
+   "HIGH_RISK_REFERRAL": 205,
+   "MID_TERM_ASSET_CHANGE": 59,
+   "MISSING_RISK_INFORMATION": 624
+  },
+  "f1": 1.0,
+  "false_negative_examples": [],
+  "false_negatives": 0,
+  "false_positive_examples": [],
+  "false_positives": 0,
+  "ground_truth_anomalies": 130,
+  "per_issue_type": {
+   "DUPLICATE_TRANSACTION": {
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 10
+   },
+   "ENDORSEMENT_EXCEEDS_PRODUCT_LIMIT": {
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 20
+   },
+   "INVALID_DATE_SEQUENCE": {
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 10
+   },
+   "INVALID_FOREIGN_KEY": {
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 10
+   },
+   "POLICY_WITHOUT_ACCEPTANCE": {
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 20
+   },
+   "PREMIUM_FORMULA_MISMATCH": {
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 20
+   },
+   "RENEWAL_FOR_CANCELLED_POLICY": {
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 20
+   },
+   "UNAUTHORIZED_POLICY_OVERLAP": {
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 20
+   }
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "true_positives": 130
+ },
+ "metrics": {
+  "approval_rate": 0.7565,
+  "average_premium": 1554.9,
+  "eligibility_pass_rate": 0.9087,
+  "exception_counts": {
+   "DUPLICATE_TRANSACTION": 10,
+   "ENDORSEMENT_EXCEEDS_PRODUCT_LIMIT": 20,
+   "INVALID_DATE_SEQUENCE": 10,
+   "INVALID_FOREIGN_KEY": 10,
+   "POLICY_WITHOUT_ACCEPTANCE": 20,
+   "PREMIUM_FORMULA_MISMATCH": 20,
+   "RENEWAL_FOR_CANCELLED_POLICY": 20,
+   "UNAUTHORIZED_POLICY_OVERLAP": 20
+  },
+  "exception_total": 130,
+  "foreign_key_integrity": 0.9998,
+  "invalid_records": 130,
+  "pending_information_rate": 0.0663,
+  "policy_issuance_compliance": 0.99,
+  "premium_reconciliation_accuracy": 0.995,
+  "referral_rate": 0.5272,
+  "rejection_rate": 0.1598,
+  "renewal_eligibility_compliance": 0.9833,
+  "row_counts": {
+   "applicants": 3000,
+   "approval_authorities": 12,
+   "audit_events": 34498,
+   "coverage_options": 9,
+   "endorsements": 193,
+   "id_counters": 197,
+   "insured_assets": 4000,
+   "payments": 2584,
+   "policies": 2000,
+   "policy_coverages": 2000,
+   "policy_status_history": 3285,
+   "product_coverages": 9,
+   "products": 3,
+   "quote_acceptances": 2283,
+   "quote_coverages": 4000,
+   "quotes": 4000,
+   "renewals": 1200,
+   "risk_assessments": 4128,
+   "risk_factors": 17,
+   "underwriting_decisions": 6247
+  },
+  "total_records_processed": 23224,
+  "valid_records": 23094
+ }
+}

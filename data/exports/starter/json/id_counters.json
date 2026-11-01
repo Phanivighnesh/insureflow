@@ -1,0 +1,790 @@
+[
+ {
+  "key": "ACC",
+  "value": 2303
+ },
+ {
+  "key": "APP",
+  "value": 3000
+ },
+ {
+  "key": "AST",
+  "value": 4000
+ },
+ {
+  "key": "AUD",
+  "value": 34498
+ },
+ {
+  "key": "END:POL-2026-000001",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000013",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000017",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000019",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000023",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000029",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000043",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000054",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000090",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000094",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000104",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000114",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000116",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000121",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000142",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000157",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000158",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000177",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000186",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000193",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000194",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000197",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000209",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000219",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000235",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000236",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000237",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000241",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000242",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000252",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000261",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000303",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000322",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000325",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000326",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000327",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000342",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000345",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000367",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000370",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000371",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000378",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000385",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000387",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000414",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000419",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000476",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000482",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000484",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000497",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000499",
+  "value": 2
+ },
+ {
+  "key": "END:POL-2026-000503",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000505",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000506",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000522",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000531",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000548",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000549",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000587",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000588",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000592",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000597",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000599",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000600",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000609",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000612",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000631",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000644",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000668",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000671",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000672",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000675",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000679",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000682",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000683",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000688",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000689",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000699",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000714",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000719",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000727",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000734",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000739",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000747",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000749",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000751",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000756",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000759",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000764",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000771",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000780",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000793",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000801",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000813",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000820",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000822",
+  "value": 2
+ },
+ {
+  "key": "END:POL-2026-000829",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000830",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000850",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000857",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000858",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000875",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000879",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000882",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000885",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000886",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000900",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000903",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000905",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000912",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000924",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000933",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000946",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000948",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000949",
+  "value": 2
+ },
+ {
+  "key": "END:POL-2026-000959",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000962",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000968",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000972",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000981",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000996",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000997",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-000998",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001002",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001009",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001013",
+  "value": 2
+ },
+ {
+  "key": "END:POL-2026-001017",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001019",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001023",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001033",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001037",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001039",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001045",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001046",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001056",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001074",
+  "value": 2
+ },
+ {
+  "key": "END:POL-2026-001078",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001083",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001086",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001088",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001098",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001099",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001110",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001114",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001120",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001132",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001133",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001135",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001144",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001163",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001169",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001172",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001173",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001177",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001182",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001183",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001213",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001219",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001223",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001224",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001249",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001259",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001270",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001272",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001276",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001287",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001288",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001295",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001302",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001307",
+  "value": 2
+ },
+ {
+  "key": "END:POL-2026-001309",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001321",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001337",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001346",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001350",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001365",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001395",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001396",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001404",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001409",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001412",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001419",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001422",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001424",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001434",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001439",
+  "value": 1
+ },
+ {
+  "key": "END:POL-2026-001440",
+  "value": 1
+ },
+ {
+  "key": "GT",
+  "value": 1514
+ },
+ {
+  "key": "PAY",
+  "value": 2584
+ },
+ {
+  "key": "POL",
+  "value": 2000
+ },
+ {
+  "key": "QTE",
+  "value": 4000
+ },
+ {
+  "key": "RAS",
+  "value": 4128
+ },
+ {
+  "key": "UWD",
+  "value": 6247
+ }
+]

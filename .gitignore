@@ -1,0 +1,122 @@
+# ==============================================================================
+# InsureFlow .gitignore
+# ==============================================================================
+
+# --- Secrets & Environment Variables ---
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+!frontend/.env.test
+backend/.env
+*.pem
+*.key
+*.cert
+*.pfx
+
+# --- Python & Virtual Environments ---
+.insureflow/
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+/lib/
+/lib64/
+!frontend/src/lib/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Testing & Code Quality ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node & Frontend ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.vite/
+frontend/.vite/
+
+# --- Databases & Runtime Data ---
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.sqlite3-journal
+*.db-shm
+*.db-wal
+backend/insureflow.db
+backend/*.db
+
+# --- Compressed Archives & Distribution Artifacts ---
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# --- Unrelated Clones & Tooling Metadata ---
+free-claude-code/
+.opencode/
+.system_generated/
+.gemini/
+scratch/
+.scratch/
+
+# --- IDEs & Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Metadata ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+logs/

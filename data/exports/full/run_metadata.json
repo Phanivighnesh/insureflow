@@ -1,0 +1,14 @@
+{
+ "generated_at": "2026-10-31T05:26:11",
+ "finished_at": "2026-10-31T05:27:29",
+ "software": {
+  "python": "3.12.3",
+  "sqlalchemy": "2.1.6",
+  "platform": "Linux",
+  "generator_version": "1.0.0",
+  "rules_version": "RULES-1.0.0",
+  "premium_formula_version": "PREM-1.0.0",
+  "underwriting_engine_version": "UW-1.0.0"
+ },
+ "triggered_by": "cli"
+}

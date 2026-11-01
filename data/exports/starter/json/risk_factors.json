@@ -1,0 +1,155 @@
+[
+ {
+  "code": "PREVIOUS_ACCIDENTS",
+  "input_field": "previous_accidents",
+  "label": "Previous accidents",
+  "mandatory": true,
+  "product_id": "PROD-001",
+  "risk_factor_id": "RSK-001",
+  "weight": 0.3
+ },
+ {
+  "code": "VEHICLE_AGE",
+  "input_field": "asset_age_years",
+  "label": "Vehicle age (years)",
+  "mandatory": true,
+  "product_id": "PROD-001",
+  "risk_factor_id": "RSK-002",
+  "weight": 0.15
+ },
+ {
+  "code": "LOCATION_RISK",
+  "input_field": "location_tier",
+  "label": "Geographic risk tier",
+  "mandatory": true,
+  "product_id": "PROD-001",
+  "risk_factor_id": "RSK-003",
+  "weight": 0.2
+ },
+ {
+  "code": "PREVIOUS_CLAIMS",
+  "input_field": "previous_claims",
+  "label": "Previous claims",
+  "mandatory": false,
+  "product_id": "PROD-001",
+  "risk_factor_id": "RSK-004",
+  "weight": 0.2
+ },
+ {
+  "code": "VEHICLE_TYPE",
+  "input_field": "vehicle_type",
+  "label": "Vehicle type",
+  "mandatory": true,
+  "product_id": "PROD-001",
+  "risk_factor_id": "RSK-005",
+  "weight": 0.15
+ },
+ {
+  "code": "FLOOD_EXPOSURE",
+  "input_field": "flood_exposure",
+  "label": "Flood exposure",
+  "mandatory": true,
+  "product_id": "PROD-002",
+  "risk_factor_id": "RSK-006",
+  "weight": 0.25
+ },
+ {
+  "code": "FIRE_EXPOSURE",
+  "input_field": "fire_exposure",
+  "label": "Fire exposure",
+  "mandatory": true,
+  "product_id": "PROD-002",
+  "risk_factor_id": "RSK-007",
+  "weight": 0.2
+ },
+ {
+  "code": "BUILDING_AGE",
+  "input_field": "asset_age_years",
+  "label": "Building age (years)",
+  "mandatory": true,
+  "product_id": "PROD-002",
+  "risk_factor_id": "RSK-008",
+  "weight": 0.15
+ },
+ {
+  "code": "CONSTRUCTION",
+  "input_field": "construction_type",
+  "label": "Construction material",
+  "mandatory": true,
+  "product_id": "PROD-002",
+  "risk_factor_id": "RSK-009",
+  "weight": 0.2
+ },
+ {
+  "code": "LOCATION_RISK",
+  "input_field": "location_tier",
+  "label": "Geographic risk tier",
+  "mandatory": true,
+  "product_id": "PROD-002",
+  "risk_factor_id": "RSK-010",
+  "weight": 0.1
+ },
+ {
+  "code": "PREVIOUS_CLAIMS",
+  "input_field": "previous_claims",
+  "label": "Previous claims",
+  "mandatory": false,
+  "product_id": "PROD-002",
+  "risk_factor_id": "RSK-011",
+  "weight": 0.1
+ },
+ {
+  "code": "INDUSTRY_RISK",
+  "input_field": "industry_hazard_class",
+  "label": "Industry hazard class",
+  "mandatory": true,
+  "product_id": "PROD-003",
+  "risk_factor_id": "RSK-012",
+  "weight": 0.3
+ },
+ {
+  "code": "FIRE_EXPOSURE",
+  "input_field": "fire_exposure",
+  "label": "Fire exposure",
+  "mandatory": true,
+  "product_id": "PROD-003",
+  "risk_factor_id": "RSK-013",
+  "weight": 0.2
+ },
+ {
+  "code": "ASSET_CONCENTRATION",
+  "input_field": "number_of_locations",
+  "label": "Number of insured locations",
+  "mandatory": false,
+  "product_id": "PROD-003",
+  "risk_factor_id": "RSK-014",
+  "weight": 0.15
+ },
+ {
+  "code": "BUSINESS_CATEGORY",
+  "input_field": "business_category",
+  "label": "Business category",
+  "mandatory": true,
+  "product_id": "PROD-003",
+  "risk_factor_id": "RSK-015",
+  "weight": 0.15
+ },
+ {
+  "code": "LOCATION_RISK",
+  "input_field": "location_tier",
+  "label": "Geographic risk tier",
+  "mandatory": true,
+  "product_id": "PROD-003",
+  "risk_factor_id": "RSK-016",
+  "weight": 0.1
+ },
+ {
+  "code": "PREVIOUS_CLAIMS",
+  "input_field": "previous_claims",
+  "label": "Previous claims",
+  "mandatory": false,
+  "product_id": "PROD-003",
+  "risk_factor_id": "RSK-017",
+  "weight": 0.1
+ }
+]

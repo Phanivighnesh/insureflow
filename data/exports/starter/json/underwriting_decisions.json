@@ -1,0 +1,7486 @@
+[
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-01-06T16:32:49",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000001",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000001",
+  "reasons": [
+   {
+    "message": "Risk score 86.5 >= decline threshold 85.0",
+    "rule_id": "UW-DEC-002"
+   }
+  ],
+  "risk_score": 86.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-002"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-01-08T10:31:47",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000002",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000002",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 74.0) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 74.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-01-09T16:09:08",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000003",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000003",
+  "reasons": [
+   {
+    "message": "Ineligible: Requested 6,000; cap 5,000 (declared value x 1.0)",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 27.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-01-09T14:23:40",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000004",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000004",
+  "reasons": [
+   {
+    "message": "Coverage 408,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 22.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-01-14T12:22:11",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000005",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000005",
+  "reasons": [
+   {
+    "message": "Low risk (score 25.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 25.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-01-17T10:24:54",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000006",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000006",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 33.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 33.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-01-25T11:20:35",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000007",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000007",
+  "reasons": [
+   {
+    "message": "Low risk (score 18.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-01-26T08:12:29",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000008",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000008",
+  "reasons": [
+   {
+    "message": "Low risk (score 24.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 24.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-01-26T08:20:49",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000009",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000009",
+  "reasons": [
+   {
+    "message": "Ineligible: Requested 30,800; cap 25,700 (declared value x 1.0)",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 11.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-01-30T15:29:21",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000010",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000010",
+  "reasons": [
+   {
+    "message": "Low risk (score 18.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 18.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-01-31T16:13:23",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000011",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000011",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 31.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 31.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-01-31T09:49:54",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000012",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000012",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 43.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "3 or more prior claims requires risk/compliance review",
+    "rule_id": "UW-REF-CLAIMS"
+   }
+  ],
+  "risk_score": 43.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-CLAIMS"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-02-02T10:24:24",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000013",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000013",
+  "reasons": [
+   {
+    "message": "Low risk (score 25.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 25.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-02-03T15:56:18",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000014",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000014",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 38.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 38.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-02-03T11:29:13",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000015",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000015",
+  "reasons": [
+   {
+    "message": "Low risk (score 27.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 27.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-02-12T13:06:44",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000016",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000016",
+  "reasons": [
+   {
+    "message": "Coverage 327,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-02-16T10:05:38",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000017",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000017",
+  "reasons": [
+   {
+    "message": "Low risk (score 15.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 15.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-02-18T10:01:29",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000018",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000018",
+  "reasons": [
+   {
+    "message": "Ineligible: Value 36,000; allowed 50,000-3,000,000 | Requested 50,000; cap 36,000 (declared value x 1.0)",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 28.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-02-19T13:54:25",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000019",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000019",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 37.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 37.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-02-25T08:41:59",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000020",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000020",
+  "reasons": [
+   {
+    "message": "Low risk (score 21.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 21.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-02T16:29:17",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000021",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000021",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 33.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 33.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-03T15:34:42",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000022",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000022",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 35.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 35.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-06T17:43:14",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000023",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000023",
+  "reasons": [
+   {
+    "message": "Coverage 256,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 27.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-07T15:48:28",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000024",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000024",
+  "reasons": [
+   {
+    "message": "Coverage 359,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 13.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-03-08T17:06:18",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000025",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000025",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 52.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 611,000 exceeds auto-approval limit 250,000 -> RISK_REVIEWER",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 52.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-03-09T16:33:04",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000026",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000026",
+  "reasons": [
+   {
+    "message": "Low risk (score 12.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 12.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-14T17:06:05",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000027",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000027",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 30.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 670,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 30.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-03-14T17:51:30",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000028",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000028",
+  "reasons": [
+   {
+    "message": "Low risk (score 24.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 24.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-03-17T11:10:42",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000029",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000029",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 78.75) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 78.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-21T09:41:32",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000030",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000030",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 58.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 58.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-03-25T10:03:06",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000031",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000031",
+  "reasons": [
+   {
+    "message": "Low risk (score 22.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 22.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-25T14:52:42",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000032",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000032",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 32.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 32.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-26T13:10:18",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000033",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000033",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 32.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 285,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 32.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-31T12:13:11",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000034",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000034",
+  "reasons": [
+   {
+    "message": "Coverage 455,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 23.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-03T16:44:58",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000035",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000035",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 36.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 36.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-04-08T17:21:31",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000036",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000036",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 44.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 755,000 exceeds auto-approval limit 300,000 -> RISK_REVIEWER",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 44.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-08T16:27:51",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000037",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000037",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 44.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 44.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-04-09T13:53:50",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000038",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000038",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 41.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 1,225,000 exceeds auto-approval limit 300,000 -> RISK_REVIEWER",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 41.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-04-10T09:13:48",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000039",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000039",
+  "reasons": [
+   {
+    "message": "Low risk (score 26.25) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 26.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-10T14:05:28",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000040",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000040",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 57.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 57.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-11T11:52:32",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000041",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000041",
+  "reasons": [
+   {
+    "message": "Coverage 287,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 14.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-04-14T14:21:55",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000042",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000042",
+  "reasons": [
+   {
+    "message": "Low risk (score 28.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 28.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-15T10:42:37",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000043",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000043",
+  "reasons": [
+   {
+    "message": "Coverage 306,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 20.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-04-21T15:14:19",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000044",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000044",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 37.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 1,050,000 exceeds auto-approval limit 300,000 -> RISK_REVIEWER",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 37.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-05-04T15:29:10",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000045",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000045",
+  "reasons": [
+   {
+    "message": "Low risk (score 22.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 22.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-05-05T12:32:41",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000046",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000046",
+  "reasons": [
+   {
+    "message": "Low risk (score 21.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 21.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-05T15:45:48",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000047",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000047",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 56.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 56.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-05-06T14:28:15",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000048",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000048",
+  "reasons": [
+   {
+    "message": "Low risk (score 30.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 30.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-05-07T10:33:32",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000049",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000049",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-80",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 33.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-05-07T14:41:46",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000050",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000050",
+  "reasons": [
+   {
+    "message": "Low risk (score 18.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 18.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-09T17:17:39",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000051",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000051",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 39.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 39.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-05-11T09:11:36",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000052",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000052",
+  "reasons": [
+   {
+    "message": "Low risk (score 24.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 24.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-18T14:30:42",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000053",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000053",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 34.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 34.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-21T16:48:26",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000054",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000054",
+  "reasons": [
+   {
+    "message": "Coverage 382,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 21.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-05-25T16:25:11",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000055",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000055",
+  "reasons": [
+   {
+    "message": "Low risk (score 24.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 24.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-05-27T10:10:22",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000056",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000056",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-80",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 27.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-05-29T13:57:57",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000057",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000057",
+  "reasons": [
+   {
+    "message": "Low risk (score 20.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 20.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-30T12:38:17",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000058",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000058",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 45.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 45.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-06-01T12:52:40",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000059",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000059",
+  "reasons": [
+   {
+    "message": "Low risk (score 9.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 9.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-06-05T17:40:13",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000060",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000060",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-80",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 24.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-06-11T14:19:54",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000061",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000061",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 38.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 38.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-06-22T12:11:15",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000062",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000062",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 36.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 36.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-06-23T13:55:03",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000063",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000063",
+  "reasons": [
+   {
+    "message": "Low risk (score 17.25) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 17.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-06-25T12:32:29",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000064",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000064",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 46.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "3 or more prior claims requires risk/compliance review",
+    "rule_id": "UW-REF-CLAIMS"
+   }
+  ],
+  "risk_score": 46.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-CLAIMS"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-06-25T16:39:54",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000065",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000065",
+  "reasons": [
+   {
+    "message": "Low risk (score 18.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-06-27T16:33:09",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000066",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000066",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 51.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 373,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 51.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-01T09:22:06",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000067",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000067",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 47.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 47.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-05T13:29:33",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000068",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000068",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 43.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 43.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-08T09:23:42",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000069",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000069",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 31.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 49,100 exceeds auto-approval limit 40,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 31.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-07-12T09:00:35",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000070",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000070",
+  "reasons": [
+   {
+    "message": "Low risk (score 27.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 27.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-07-17T09:02:40",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000071",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000071",
+  "reasons": [
+   {
+    "message": "Low risk (score 18.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-19T12:40:01",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000072",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000072",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 49.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 402,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 49.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-07-20T16:51:29",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000073",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000073",
+  "reasons": [
+   {
+    "message": "Low risk (score 26.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 26.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-07-25T10:14:26",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000074",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000074",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 77.25) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 77.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-07-26T09:47:51",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000075",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000075",
+  "reasons": [
+   {
+    "message": "Low risk (score 13.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 13.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-28T14:20:14",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000076",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000076",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 39.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 39.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-07-28T10:02:20",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000077",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000077",
+  "reasons": [
+   {
+    "message": "Low risk (score 15.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 15.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-28T17:09:15",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000078",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000078",
+  "reasons": [
+   {
+    "message": "Coverage 266,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 26.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-07-29T08:33:47",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000079",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000079",
+  "reasons": [
+   {
+    "message": "Low risk (score 28.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 28.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-08-02T08:47:06",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000080",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000080",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 45.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 45.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-08-05T17:57:57",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000081",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000081",
+  "reasons": [
+   {
+    "message": "Low risk (score 20.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 20.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-08-09T09:07:10",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000082",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000082",
+  "reasons": [
+   {
+    "message": "Ineligible: Asset age 21y; maximum 20y",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 20.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-08-11T15:39:16",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000083",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000083",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 70.75) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 70.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-08-14T10:42:32",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000084",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000084",
+  "reasons": [
+   {
+    "message": "Low risk (score 22.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 22.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-08-17T17:15:52",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000085",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000085",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 45.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 45.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-09-04T12:46:33",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000086",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000086",
+  "reasons": [
+   {
+    "message": "Low risk (score 18.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-07T16:16:47",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000087",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000087",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 62.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 62.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-09T16:19:31",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000088",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000088",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 42.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 42.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-09T14:50:35",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000089",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000089",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 31.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 352,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 31.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-09-11T14:21:46",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000090",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000090",
+  "reasons": [
+   {
+    "message": "Low risk (score 26.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 26.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-12T08:32:34",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000091",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000091",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 52.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 430,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 52.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-09-12T11:34:44",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000092",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000092",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-85",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 24.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-14T10:23:40",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000093",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000093",
+  "reasons": [
+   {
+    "message": "Coverage 365,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 17.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-14T12:52:27",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000094",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000094",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 52.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 52.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-15T17:02:00",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000095",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000095",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 43.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 43.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-17T13:20:32",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000096",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000096",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 31.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 31.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-19T17:57:26",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000097",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000097",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 33.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 271,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 33.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-22T11:56:48",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000098",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000098",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 41.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 41.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-23T14:32:23",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000099",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000099",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 36.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 336,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 36.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-23T17:11:20",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000100",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000100",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 46.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 46.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-23T08:14:56",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000101",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000101",
+  "reasons": [
+   {
+    "message": "Coverage 294,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 27.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-09-29T11:52:53",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000102",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000102",
+  "reasons": [
+   {
+    "message": "Mandatory information missing: construction_type",
+    "rule_id": "UW-PEN-001"
+   }
+  ],
+  "risk_score": 65.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-PEN-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-10-01T17:58:41",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000103",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000103",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 81.75) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 950,000 exceeds auto-approval limit 300,000 -> RISK_REVIEWER",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 81.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-10-01T12:13:05",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000104",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000104",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 78.25) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 306,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 78.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-03T12:54:01",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000105",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000105",
+  "reasons": [
+   {
+    "message": "Coverage 402,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 22.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-10-06T08:45:46",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000106",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000106",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-80",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 76.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-10-11T16:10:50",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000107",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000107",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 46.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "3 or more prior claims requires risk/compliance review",
+    "rule_id": "UW-REF-CLAIMS"
+   }
+  ],
+  "risk_score": 46.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-CLAIMS"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-10-12T17:09:37",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000108",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000108",
+  "reasons": [
+   {
+    "message": "Low risk (score 18.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-15T08:37:06",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000109",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000109",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 33.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 479,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 33.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-15T12:20:19",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000110",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000110",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 30.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 30.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-10-16T10:40:32",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000111",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000111",
+  "reasons": [
+   {
+    "message": "Low risk (score 26.25) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 26.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-16T15:25:58",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000112",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000112",
+  "reasons": [
+   {
+    "message": "Coverage 347,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 12.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-10-17T15:35:27",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000113",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000113",
+  "reasons": [
+   {
+    "message": "Ineligible: Asset age 104y; maximum 100y",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 35.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-24T12:00:13",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000114",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000114",
+  "reasons": [
+   {
+    "message": "Coverage 385,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 29.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-10-25T13:03:13",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000115",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000115",
+  "reasons": [
+   {
+    "message": "Low risk (score 12.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 12.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-25T15:17:01",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000116",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000116",
+  "reasons": [
+   {
+    "message": "Coverage 382,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 21.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-02T15:11:11",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000117",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000117",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 33.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 317,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 33.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-11-03T08:21:48",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000118",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000118",
+  "reasons": [
+   {
+    "message": "Low risk (score 25.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 25.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-11-04T15:42:06",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000119",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000119",
+  "reasons": [
+   {
+    "message": "Low risk (score 9.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 9.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-11-05T08:42:26",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000120",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000120",
+  "reasons": [
+   {
+    "message": "Low risk (score 15.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 15.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-11-07T11:58:32",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000121",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000121",
+  "reasons": [
+   {
+    "message": "Ineligible: Asset age 23y; maximum 20y",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 21.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-11-09T12:00:43",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000122",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000122",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 56.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 1,460,000 exceeds auto-approval limit 300,000 -> RISK_REVIEWER",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 56.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-11T17:24:35",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000123",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000123",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 35.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 454,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 35.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-11-15T16:02:02",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000124",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000124",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 77.25) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 77.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-16T10:21:25",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000125",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000125",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 58.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 58.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-16T08:03:27",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000126",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000126",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 36.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 36.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-17T09:17:40",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000127",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000127",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 58.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 58.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-18T13:29:23",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000128",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000128",
+  "reasons": [
+   {
+    "message": "Coverage 304,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 17.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-19T13:55:48",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000129",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000129",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 34.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 48,300 exceeds auto-approval limit 40,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 34.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-22T13:10:13",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000130",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000130",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 33.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 33.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-11-23T09:58:47",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000131",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000131",
+  "reasons": [
+   {
+    "message": "Low risk (score 13.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 13.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-11-28T17:53:27",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000132",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000132",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 78.25) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 78.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-03T12:46:10",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000133",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000133",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 31.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 31.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-05T08:34:41",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000134",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000134",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 47.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 47.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-12-07T08:43:20",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000135",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000135",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-85",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 32.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-08T10:11:06",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000136",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000136",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 31.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 31.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-12-09T14:06:58",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000137",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000137",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-80",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 52.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-12-20T08:14:52",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000138",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000138",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 70.75) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 70.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-24T13:39:28",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000139",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000139",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 30.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 275,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 30.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-26T15:33:12",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000140",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000140",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 42.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 42.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2025-12-27T11:07:46",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000141",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000141",
+  "reasons": [
+   {
+    "message": "Low risk (score 13.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 13.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-28T13:09:01",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000142",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000142",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 49.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 49.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-30T08:27:23",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000143",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000143",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 39.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 39.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-01-01T16:55:31",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000144",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000144",
+  "reasons": [
+   {
+    "message": "Risk score 85.75 >= decline threshold 85.0",
+    "rule_id": "UW-DEC-002"
+   }
+  ],
+  "risk_score": 85.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-002"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-01-01T14:09:06",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000145",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000145",
+  "reasons": [
+   {
+    "message": "Coverage 310,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-01-05T08:15:36",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000146",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000146",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 53.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 354,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 53.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-01-05T13:05:11",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000147",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000147",
+  "reasons": [
+   {
+    "message": "Low risk (score 28.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 28.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2026-01-10T13:45:30",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000148",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000148",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 40.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "3 or more prior claims requires risk/compliance review",
+    "rule_id": "UW-REF-CLAIMS"
+   }
+  ],
+  "risk_score": 40.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-CLAIMS"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-01-15T08:38:10",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000149",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000149",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 31.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 31.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-02-02T14:18:13",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000150",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000150",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 39.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 39.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-02-14T16:34:20",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000151",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000151",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-85",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 37.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-02-15T10:50:14",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000152",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000152",
+  "reasons": [
+   {
+    "message": "Low risk (score 30.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 30.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-02-20T10:48:30",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000153",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000153",
+  "reasons": [
+   {
+    "message": "Low risk (score 23.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 23.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-02-21T17:57:46",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000154",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000154",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 31.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 31.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-02-26T08:17:48",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000155",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000155",
+  "reasons": [
+   {
+    "message": "Risk score 91.75 >= decline threshold 85.0",
+    "rule_id": "UW-DEC-002"
+   }
+  ],
+  "risk_score": 91.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-002"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-02-26T09:46:41",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000156",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000156",
+  "reasons": [
+   {
+    "message": "Coverage 374,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 29.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-03-02T10:17:31",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000157",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000157",
+  "reasons": [
+   {
+    "message": "Low risk (score 13.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 13.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-03-07T16:24:50",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000158",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000158",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-85",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 9.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-03-11T17:54:51",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000159",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000159",
+  "reasons": [
+   {
+    "message": "Low risk (score 18.25) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 18.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-03-13T14:06:14",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000160",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000160",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 38.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 38.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-03-13T09:54:46",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000161",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000161",
+  "reasons": [
+   {
+    "message": "Low risk (score 22.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 22.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-03-16T08:04:23",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000162",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000162",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-85",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 33.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-03-18T16:30:54",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000163",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000163",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 78.25) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "3 or more prior claims requires risk/compliance review",
+    "rule_id": "UW-REF-CLAIMS"
+   }
+  ],
+  "risk_score": 78.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-CLAIMS"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-03-22T13:07:38",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000164",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000164",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 37.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 37.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-04-01T12:29:06",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000165",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000165",
+  "reasons": [
+   {
+    "message": "Coverage 361,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 24.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-04-07T12:17:23",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000166",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000166",
+  "reasons": [
+   {
+    "message": "Low risk (score 9.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 9.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-04-13T14:42:47",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000167",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000167",
+  "reasons": [
+   {
+    "message": "Low risk (score 19.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 19.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-04-24T13:54:22",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000168",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000168",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 35.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 508,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 35.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-04-24T12:23:41",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000169",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000169",
+  "reasons": [
+   {
+    "message": "Low risk (score 22.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 22.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-05-02T13:14:17",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000170",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000170",
+  "reasons": [
+   {
+    "message": "Low risk (score 21.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 21.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-05-08T14:05:09",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000171",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000171",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 74.0) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 74.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-05-20T15:22:09",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000172",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000172",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 36.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 36.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-05-26T08:26:40",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000173",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000173",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 39.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 382,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 39.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-05-27T13:06:59",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000174",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000174",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 30.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 30.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-05-28T08:32:33",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000175",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000175",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 49.75) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 266,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 49.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-05-30T14:36:00",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000176",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000176",
+  "reasons": [
+   {
+    "message": "Low risk (score 12.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 12.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-06-06T17:39:01",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000177",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000177",
+  "reasons": [
+   {
+    "message": "Coverage 306,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 23.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-06-12T12:27:24",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000178",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000178",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 57.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 408,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 57.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-06-17T11:47:54",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000179",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000179",
+  "reasons": [
+   {
+    "message": "Mandatory information missing: flood_exposure",
+    "rule_id": "UW-PEN-001"
+   }
+  ],
+  "risk_score": 24.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-PEN-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-06-20T12:28:25",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000180",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000180",
+  "reasons": [
+   {
+    "message": "Low risk (score 16.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 16.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-06-25T13:00:16",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000181",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000181",
+  "reasons": [
+   {
+    "message": "Risk score 86.5 >= decline threshold 85.0",
+    "rule_id": "UW-DEC-002"
+   }
+  ],
+  "risk_score": 86.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-002"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-06-27T16:32:40",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000182",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000182",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 41.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 41.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-07-01T12:11:55",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000183",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000183",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 46.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 46.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-07-02T17:58:21",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000184",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000184",
+  "reasons": [
+   {
+    "message": "Low risk (score 22.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 22.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-07-07T14:09:05",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000185",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000185",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 49.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 49.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-07-09T15:57:25",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000186",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000186",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 32.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 296,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 32.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-07-30T11:27:05",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000187",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000187",
+  "reasons": [
+   {
+    "message": "Mandatory information missing: business_category",
+    "rule_id": "UW-PEN-001"
+   }
+  ],
+  "risk_score": 40.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-PEN-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-08-23T09:14:41",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000188",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000188",
+  "reasons": [
+   {
+    "message": "Ineligible: Requested 100,000; cap 52,000 (declared value x 1.0)",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 26.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-08-30T11:56:34",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000189",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000189",
+  "reasons": [
+   {
+    "message": "Mandatory information missing: registration_location",
+    "rule_id": "UW-PEN-001"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-PEN-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-09-02T09:33:33",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000190",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000190",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 80.5) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 80.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-09-03T16:28:51",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000191",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000191",
+  "reasons": [
+   {
+    "message": "Ineligible: Requested 100,000; cap 94,000 (declared value x 1.0)",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 30.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-09-09T08:53:49",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000192",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000192",
+  "reasons": [
+   {
+    "message": "Low risk (score 28.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 28.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-09-23T08:09:19",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000193",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000193",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 32.5) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 32.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-10-03T11:11:05",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000194",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000194",
+  "reasons": [
+   {
+    "message": "Ineligible: Asset age 21y; maximum 20y",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 51.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-10-04T11:23:59",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000195",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000195",
+  "reasons": [
+   {
+    "message": "Low risk (score 21.0) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 21.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-10-14T16:38:05",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000196",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000196",
+  "reasons": [
+   {
+    "message": "Low risk (score 19.5) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 19.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-10-15T10:03:55",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000197",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000197",
+  "reasons": [
+   {
+    "message": "Ineligible: Age 17; allowed 18-80",
+    "rule_id": "UW-DEC-001"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-DEC-001"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-04T13:24:53",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000198",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000102",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 67.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 67.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "AUTOMATED",
+  "decided_at": "2026-06-23T13:47:54",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000199",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000179",
+  "reasons": [
+   {
+    "message": "Low risk (score 22.75) and coverage within auto-approval limit",
+    "rule_id": "UW-APR-001"
+   }
+  ],
+  "risk_score": 22.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-APR-001"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-08-05T15:34:05",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000200",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000187",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 41.25) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 310,000 exceeds auto-approval limit 300,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 41.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-01-12T15:28:47",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000201",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000002",
+  "reasons": [
+   {
+    "message": "REJECT by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 74.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-01-13T15:21:40",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000202",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000004",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 22.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-01-18T13:20:54",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000203",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000006",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 33.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-02-05T18:08:23",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000204",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000011",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 31.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-02-02T13:55:54",
+  "decided_by": "reviewer-03",
+  "decided_role": "RISK_REVIEWER",
+  "decision_id": "UWD-2026-000205",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000012",
+  "reasons": [
+   {
+    "message": "APPROVE by reviewer-03 (RISK_REVIEWER): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 43.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-02-08T19:31:18",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000206",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000014",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 38.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-02-14T14:54:44",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000207",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000016",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-02-22T18:22:25",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000208",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000019",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 37.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-03T20:24:17",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000209",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000021",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 33.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-07T18:11:42",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000210",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000022",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 35.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-10T19:43:14",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000211",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000023",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 27.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-10T19:39:28",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000212",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000024",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 13.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-03-10T21:47:18",
+  "decided_by": "reviewer-03",
+  "decided_role": "RISK_REVIEWER",
+  "decision_id": "UWD-2026-000213",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000025",
+  "reasons": [
+   {
+    "message": "APPROVE by reviewer-03 (RISK_REVIEWER): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 52.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-19T21:26:05",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000214",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000027",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 30.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-03-19T12:42:42",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000215",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000029",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 78.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-26T11:55:32",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000216",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000030",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 58.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-26T19:38:42",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000217",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000032",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 32.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-03-27T15:46:18",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000218",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000033",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 32.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-03T15:41:11",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000219",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000034",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 23.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-07T21:26:58",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000220",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000035",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 36.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-04-13T21:03:31",
+  "decided_by": "reviewer-03",
+  "decided_role": "RISK_REVIEWER",
+  "decision_id": "UWD-2026-000221",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000036",
+  "reasons": [
+   {
+    "message": "REJECT by reviewer-03 (RISK_REVIEWER): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 44.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-09T19:51:51",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000222",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000037",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 44.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-04-10T17:34:50",
+  "decided_by": "reviewer-02",
+  "decided_role": "RISK_REVIEWER",
+  "decision_id": "UWD-2026-000223",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000038",
+  "reasons": [
+   {
+    "message": "APPROVE by reviewer-02 (RISK_REVIEWER): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 41.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-15T17:54:28",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000224",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000040",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 57.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-14T14:58:32",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000225",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000041",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 14.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-04-17T13:36:37",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000226",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000043",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 20.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-04-26T16:49:19",
+  "decided_by": "reviewer-02",
+  "decided_role": "RISK_REVIEWER",
+  "decision_id": "UWD-2026-000227",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000044",
+  "reasons": [
+   {
+    "message": "APPROVE by reviewer-02 (RISK_REVIEWER): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 37.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-10T20:11:48",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000228",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000047",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 56.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-13T21:12:39",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000229",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000051",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 39.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-20T18:38:42",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000230",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000053",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 34.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-22T17:34:26",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000231",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000054",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 21.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-06-03T14:12:17",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000232",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000058",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 45.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-06-15T18:23:54",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000233",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000061",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 38.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-06-25T15:11:15",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000234",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000062",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 36.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-06-27T13:19:29",
+  "decided_by": "reviewer-03",
+  "decided_role": "RISK_REVIEWER",
+  "decision_id": "UWD-2026-000235",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000064",
+  "reasons": [
+   {
+    "message": "REJECT by reviewer-03 (RISK_REVIEWER): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 46.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-06-30T21:04:09",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000236",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000066",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 51.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-04T10:09:06",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000237",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000067",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 47.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-09T14:11:33",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000238",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000068",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 43.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-12T12:32:42",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000239",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000069",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 31.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-07-22T15:38:01",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000240",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000072",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 49.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-07-30T13:38:26",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000241",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000074",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 77.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-08-02T15:11:14",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000242",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000076",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 39.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-08-02T19:51:15",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000243",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000078",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 26.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-08-04T09:13:06",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000244",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000080",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 45.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-08-15T16:52:16",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000245",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000083",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 70.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-08-20T18:46:52",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000246",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000085",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 45.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-09T19:51:47",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000247",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000087",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 62.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-13T17:51:31",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000248",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000088",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 42.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-10T18:55:35",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000249",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000089",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 31.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-13T13:14:34",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000250",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000091",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 52.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-16T13:43:40",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000251",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000093",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 17.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-19T15:39:27",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000252",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000094",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 52.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-20T18:58:00",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000253",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000095",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 43.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-18T13:38:32",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000254",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000096",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 31.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-23T18:54:26",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000255",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000097",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 33.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-25T16:48:48",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000256",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000098",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 41.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-27T17:13:23",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000257",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000099",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 36.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-28T18:10:20",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000258",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000100",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 46.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-09-28T12:19:56",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000259",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000101",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 27.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-05T17:22:53",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000260",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000102",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 67.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 3
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-10-05T20:12:41",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000261",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000103",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 81.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-10-03T12:55:05",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000262",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000104",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 78.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-05T16:04:01",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000263",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000105",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 22.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-10-12T17:05:50",
+  "decided_by": "reviewer-02",
+  "decided_role": "RISK_REVIEWER",
+  "decision_id": "UWD-2026-000264",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000107",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by reviewer-02 (RISK_REVIEWER): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 46.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-19T12:50:06",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000265",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000109",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 33.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-20T17:18:19",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000266",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000110",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 30.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-17T16:23:58",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000267",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000112",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 12.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-27T16:56:13",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000268",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000114",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 29.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-10-27T17:37:01",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000269",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000116",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 21.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-05T17:53:11",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000270",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000117",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 33.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2025-11-11T13:28:43",
+  "decided_by": "reviewer-03",
+  "decided_role": "RISK_REVIEWER",
+  "decision_id": "UWD-2026-000271",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000122",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by reviewer-03 (RISK_REVIEWER): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 56.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-13T17:38:35",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000272",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000123",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 35.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-11-18T16:49:02",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000273",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000124",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 77.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-20T12:59:25",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000274",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000125",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 58.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-21T11:24:40",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000275",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000127",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 58.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-23T15:28:23",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000276",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000128",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 17.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-21T16:51:48",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000277",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000129",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 34.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-11-27T17:40:13",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000278",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000130",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 33.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-12-03T22:37:27",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000279",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000132",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 78.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-04T15:39:10",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000280",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000133",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 31.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-09T10:53:41",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000281",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000134",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 47.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-13T12:07:06",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000282",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000136",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 31.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2025-12-24T10:35:52",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000283",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000138",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 70.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-28T15:22:28",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000284",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000139",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 30.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-29T16:42:12",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000285",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000140",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 42.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-12-29T13:59:01",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000286",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000142",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 49.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-01-02T10:36:23",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000287",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000143",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 39.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-01-05T17:25:06",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000288",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000145",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 18.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-01-06T12:36:36",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000289",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000146",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 53.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "RISK_REVIEWER",
+  "decided_at": "2026-01-15T16:17:30",
+  "decided_by": "reviewer-02",
+  "decided_role": "RISK_REVIEWER",
+  "decision_id": "UWD-2026-000290",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000148",
+  "reasons": [
+   {
+    "message": "REJECT by reviewer-02 (RISK_REVIEWER): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 40.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-01-19T11:24:10",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000291",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000149",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 31.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-02-05T17:43:13",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000292",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000150",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 39.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-02-25T19:58:46",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000293",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000154",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 31.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-02-28T12:18:41",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000294",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000156",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 29.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-03-14T14:34:14",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000295",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000160",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 38.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-03-23T20:25:54",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000296",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000163",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 78.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-03-24T15:19:38",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000297",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000164",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 37.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-04-04T17:04:06",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000298",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000165",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 24.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-04-26T15:29:22",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000299",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "DECLINED",
+  "quote_id": "QTE-2026-000168",
+  "reasons": [
+   {
+    "message": "REJECT by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-REJ"
+   }
+  ],
+  "risk_score": 35.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-REJ"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-05-12T17:03:09",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000300",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000171",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 74.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-05-21T15:55:09",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000301",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000172",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 36.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-05-28T09:58:40",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000302",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000173",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 39.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-05-28T14:18:59",
+  "decided_by": "analyst-04",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000303",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000174",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-04 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 30.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-05-31T10:11:33",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000304",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000175",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 49.75,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-06-14T13:23:24",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000305",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000178",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 57.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-07-01T16:50:40",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000306",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000182",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 41.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-07-05T15:17:55",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000307",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000183",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 46.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-07-09T17:45:05",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000308",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000185",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 49.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-07-12T20:03:25",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000309",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "PENDING_INFORMATION",
+  "quote_id": "QTE-2026-000186",
+  "reasons": [
+   {
+    "message": "REQUEST_INFORMATION by analyst-01 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-INF"
+   }
+  ],
+  "risk_score": 32.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-INF"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-08-08T17:05:05",
+  "decided_by": "analyst-02",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000310",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000187",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-02 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 41.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 3
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-09-07T11:19:33",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000311",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000190",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 80.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2026-09-26T11:23:19",
+  "decided_by": "analyst-03",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000312",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed against underwriting guidelines",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000193",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-03 (OPERATIONS_ANALYST): Reviewed against underwriting guidelines",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 32.5,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-02T09:32:00",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000313",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000198",
+  "reasons": [
+   {
+    "message": "MEDIUM risk (score 33.0) requires OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 33.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "OPERATIONS_ANALYST",
+  "decided_at": "2025-05-02T11:32:00",
+  "decided_by": "analyst-01",
+  "decided_role": "OPERATIONS_ANALYST",
+  "decision_id": "UWD-2026-000314",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000198",
+  "reasons": [
+   {
+    "message": "APPROVE by analyst-01 (OPERATIONS_ANALYST): Reviewed",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 33.0,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-02-08T09:54:00",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000315",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000199",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 77.25) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   }
+  ],
+  "risk_score": 77.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-02-08T11:54:00",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000316",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000199",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 77.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-02-07T09:56:00",
+  "decided_by": "SYSTEM",
+  "decided_role": "SYSTEM",
+  "decision_id": "UWD-2026-000317",
+  "decision_type": "AUTOMATED",
+  "notes": null,
+  "outcome": "REFERRED",
+  "quote_id": "QTE-2026-000200",
+  "reasons": [
+   {
+    "message": "HIGH risk (score 78.25) requires SENIOR_UNDERWRITER",
+    "rule_id": "UW-REF-RISK"
+   },
+   {
+    "message": "Coverage 306,000 exceeds auto-approval limit 250,000 -> OPERATIONS_ANALYST",
+    "rule_id": "UW-REF-COV"
+   }
+  ],
+  "risk_score": 78.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-REF-RISK",
+   "UW-REF-COV"
+  ],
+  "sequence": 1
+ },
+ {
+  "approval_authority": "SENIOR_UNDERWRITER",
+  "decided_at": "2026-02-07T11:56:00",
+  "decided_by": "admin-01",
+  "decided_role": "ADMINISTRATOR",
+  "decision_id": "UWD-2026-000318",
+  "decision_type": "MANUAL",
+  "notes": "Reviewed",
+  "outcome": "APPROVED",
+  "quote_id": "QTE-2026-000200",
+  "reasons": [
+   {
+    "message": "APPROVE by admin-01 (ADMINISTRATOR): Reviewed",
+    "rule_id": "UW-MAN-APR"
+   }
+  ],
+  "risk_score": 78.25,
+  "rule_engine_version": "UW-1.0.0",
+  "rule_ids": [
+   "UW-MAN-APR"
+  ],
+  "sequence": 2
+ }
+]

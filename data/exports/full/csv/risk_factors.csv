@@ -1,0 +1,18 @@
+risk_factor_id,product_id,code,label,input_field,weight,mandatory
+RSK-001,PROD-001,PREVIOUS_ACCIDENTS,Previous accidents,previous_accidents,0.3,true
+RSK-002,PROD-001,VEHICLE_AGE,Vehicle age (years),asset_age_years,0.15,true
+RSK-003,PROD-001,LOCATION_RISK,Geographic risk tier,location_tier,0.2,true
+RSK-004,PROD-001,PREVIOUS_CLAIMS,Previous claims,previous_claims,0.2,false
+RSK-005,PROD-001,VEHICLE_TYPE,Vehicle type,vehicle_type,0.15,true
+RSK-006,PROD-002,FLOOD_EXPOSURE,Flood exposure,flood_exposure,0.25,true
+RSK-007,PROD-002,FIRE_EXPOSURE,Fire exposure,fire_exposure,0.2,true
+RSK-008,PROD-002,BUILDING_AGE,Building age (years),asset_age_years,0.15,true
+RSK-009,PROD-002,CONSTRUCTION,Construction material,construction_type,0.2,true
+RSK-010,PROD-002,LOCATION_RISK,Geographic risk tier,location_tier,0.1,true
+RSK-011,PROD-002,PREVIOUS_CLAIMS,Previous claims,previous_claims,0.1,false
+RSK-012,PROD-003,INDUSTRY_RISK,Industry hazard class,industry_hazard_class,0.3,true
+RSK-013,PROD-003,FIRE_EXPOSURE,Fire exposure,fire_exposure,0.2,true
+RSK-014,PROD-003,ASSET_CONCENTRATION,Number of insured locations,number_of_locations,0.15,false
+RSK-015,PROD-003,BUSINESS_CATEGORY,Business category,business_category,0.15,true
+RSK-016,PROD-003,LOCATION_RISK,Geographic risk tier,location_tier,0.1,true
+RSK-017,PROD-003,PREVIOUS_CLAIMS,Previous claims,previous_claims,0.1,false

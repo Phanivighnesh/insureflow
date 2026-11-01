@@ -1,0 +1,4 @@
+product_id,product_key,name,base_rate,min_insured_value,max_insured_value,status,effective_from,effective_to,rules_version
+PROD-001,MOTOR,Motor Insurance,0.040000,2000.00,150000.00,ACTIVE,2026-01-01,,RULES-1.0.0
+PROD-002,PROPERTY,Property Insurance,0.003500,50000.00,2000000.00,ACTIVE,2026-01-01,,RULES-1.0.0
+PROD-003,COMMERCIAL,Commercial Insurance,0.006000,50000.00,3000000.00,ACTIVE,2026-01-01,,RULES-1.0.0

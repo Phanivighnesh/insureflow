@@ -1,0 +1,98 @@
+[
+ {
+  "authority_id": "AUTH-COMMERCIAL-AUTOMATED",
+  "level": "AUTOMATED",
+  "max_coverage": 300000.0,
+  "max_risk_category": "LOW",
+  "product_id": "PROD-003",
+  "role": null
+ },
+ {
+  "authority_id": "AUTH-COMMERCIAL-OPERATIONS_ANALYST",
+  "level": "OPERATIONS_ANALYST",
+  "max_coverage": 750000.0,
+  "max_risk_category": "MEDIUM",
+  "product_id": "PROD-003",
+  "role": "OPERATIONS_ANALYST"
+ },
+ {
+  "authority_id": "AUTH-COMMERCIAL-RISK_REVIEWER",
+  "level": "RISK_REVIEWER",
+  "max_coverage": 1500000.0,
+  "max_risk_category": "MEDIUM",
+  "product_id": "PROD-003",
+  "role": "RISK_REVIEWER"
+ },
+ {
+  "authority_id": "AUTH-COMMERCIAL-SENIOR_UNDERWRITER",
+  "level": "SENIOR_UNDERWRITER",
+  "max_coverage": null,
+  "max_risk_category": "HIGH",
+  "product_id": "PROD-003",
+  "role": "ADMINISTRATOR"
+ },
+ {
+  "authority_id": "AUTH-MOTOR-AUTOMATED",
+  "level": "AUTOMATED",
+  "max_coverage": 40000.0,
+  "max_risk_category": "LOW",
+  "product_id": "PROD-001",
+  "role": null
+ },
+ {
+  "authority_id": "AUTH-MOTOR-OPERATIONS_ANALYST",
+  "level": "OPERATIONS_ANALYST",
+  "max_coverage": 75000.0,
+  "max_risk_category": "MEDIUM",
+  "product_id": "PROD-001",
+  "role": "OPERATIONS_ANALYST"
+ },
+ {
+  "authority_id": "AUTH-MOTOR-RISK_REVIEWER",
+  "level": "RISK_REVIEWER",
+  "max_coverage": 120000.0,
+  "max_risk_category": "MEDIUM",
+  "product_id": "PROD-001",
+  "role": "RISK_REVIEWER"
+ },
+ {
+  "authority_id": "AUTH-MOTOR-SENIOR_UNDERWRITER",
+  "level": "SENIOR_UNDERWRITER",
+  "max_coverage": null,
+  "max_risk_category": "HIGH",
+  "product_id": "PROD-001",
+  "role": "ADMINISTRATOR"
+ },
+ {
+  "authority_id": "AUTH-PROPERTY-AUTOMATED",
+  "level": "AUTOMATED",
+  "max_coverage": 250000.0,
+  "max_risk_category": "LOW",
+  "product_id": "PROD-002",
+  "role": null
+ },
+ {
+  "authority_id": "AUTH-PROPERTY-OPERATIONS_ANALYST",
+  "level": "OPERATIONS_ANALYST",
+  "max_coverage": 500000.0,
+  "max_risk_category": "MEDIUM",
+  "product_id": "PROD-002",
+  "role": "OPERATIONS_ANALYST"
+ },
+ {
+  "authority_id": "AUTH-PROPERTY-RISK_REVIEWER",
+  "level": "RISK_REVIEWER",
+  "max_coverage": 1000000.0,
+  "max_risk_category": "MEDIUM",
+  "product_id": "PROD-002",
+  "role": "RISK_REVIEWER"
+ },
+ {
+  "authority_id": "AUTH-PROPERTY-SENIOR_UNDERWRITER",
+  "level": "SENIOR_UNDERWRITER",
+  "max_coverage": null,
+  "max_risk_category": "HIGH",
+  "product_id": "PROD-002",
+  "role": "ADMINISTRATOR"
+ }
+]

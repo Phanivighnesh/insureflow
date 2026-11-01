@@ -1,0 +1,38 @@
+[
+ {
+  "base_rate": 0.04,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_insured_value": 150000.0,
+  "min_insured_value": 2000.0,
+  "name": "Motor Insurance",
+  "product_id": "PROD-001",
+  "product_key": "MOTOR",
+  "rules_version": "RULES-1.0.0",
+  "status": "ACTIVE"
+ },
+ {
+  "base_rate": 0.0035,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_insured_value": 2000000.0,
+  "min_insured_value": 50000.0,
+  "name": "Property Insurance",
+  "product_id": "PROD-002",
+  "product_key": "PROPERTY",
+  "rules_version": "RULES-1.0.0",
+  "status": "ACTIVE"
+ },
+ {
+  "base_rate": 0.006,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_insured_value": 3000000.0,
+  "min_insured_value": 50000.0,
+  "name": "Commercial Insurance",
+  "product_id": "PROD-003",
+  "product_key": "COMMERCIAL",
+  "rules_version": "RULES-1.0.0",
+  "status": "ACTIVE"
+ }
+]
