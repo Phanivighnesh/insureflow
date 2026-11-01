@@ -1,7 +1,8 @@
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
-import { LogOut, ShieldCheck, UserCircle2 } from 'lucide-react'
+import { LogOut, UserCircle2 } from 'lucide-react'
 import { useAuth } from '../auth/AuthContext'
 import { Button, DemoBanner, cn } from '../components/ui'
+import { BrandLogo } from '../components/BrandLogo'
 
 const links = [['/products', 'Products'], ['/dashboard', 'Dashboard'], ['/my/quotes', 'My applications'], ['/my/policies', 'My policies'], ['/my/renewals', 'Renewals']] as const
 
@@ -12,7 +13,7 @@ export default function CustomerLayout() {
     <DemoBanner />
     <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
-        <NavLink to="/" className="flex items-center gap-2 text-lg font-semibold text-brand-700"><ShieldCheck className="h-6 w-6" />InsureFlow</NavLink>
+        <NavLink to="/" className="flex items-center gap-2 text-lg font-semibold text-brand-700"><BrandLogo size="md" />InsureFlow</NavLink>
         <nav className="flex flex-1 flex-wrap items-center gap-1 text-sm" aria-label="Customer navigation">
           {links.map(([to, label]) => <NavLink key={to} to={to} className={({ isActive }) => cn('rounded-md px-3 py-1.5 font-medium', isActive ? 'bg-brand-50 text-brand-700' : 'text-slate-600 hover:bg-slate-100')}>{label}</NavLink>)}
         </nav>

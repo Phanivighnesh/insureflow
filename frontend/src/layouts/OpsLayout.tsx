@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import { Activity, AlertTriangle, Bot, Building2, ClipboardCheck, Database, FileText, FilePenLine, LayoutDashboard, LogOut, PanelLeftClose, PanelLeftOpen, RefreshCw, ScrollText, ShieldCheck, Users, FileSearch } from 'lucide-react'
+import { AlertTriangle, Bot, Building2, ClipboardCheck, Database, FileText, FilePenLine, LayoutDashboard, LogOut, PanelLeftClose, PanelLeftOpen, RefreshCw, ScrollText, ShieldCheck, Users, FileSearch } from 'lucide-react'
 import { api, useAuth } from '../auth/AuthContext'
 import { Badge, Button, DemoBanner, cn } from '../components/ui'
 import { title } from '../lib/format'
+import { BrandLogo } from '../components/BrandLogo'
 
 const items = [
   ['/ops', 'Overview', LayoutDashboard, true], ['/ops/applicants', 'Applicants', Users, false], ['/ops/assets', 'Insured assets', Building2, false],
@@ -22,7 +23,7 @@ export default function OpsLayout() {
     <DemoBanner text="DEMO ENVIRONMENT — operations console over synthetic data. Not production authentication." />
     <div className="flex flex-1">
       <aside className={cn('sticky top-0 hidden h-screen shrink-0 flex-col border-r border-slate-200 bg-white transition-all md:flex', collapsed ? 'w-16' : 'w-60')} aria-label="Operations navigation">
-        <div className="flex items-center gap-2 border-b border-slate-100 px-4 py-4 text-lg font-semibold text-brand-700"><Activity className="h-6 w-6 shrink-0" />{!collapsed && 'InsureFlow Ops'}</div>
+        <div className="flex items-center gap-2 border-b border-slate-100 px-4 py-4 text-lg font-semibold text-brand-700"><BrandLogo size="md" className="shrink-0" />{!collapsed && 'InsureFlow Ops'}</div>
         <nav className="flex-1 space-y-0.5 overflow-y-auto p-2">
           {items.map(([to, label, Icon, end]) => <NavLink key={to} to={to} end={end} title={label} className={({ isActive }) => cn('flex items-center gap-3 rounded-md px-3 py-2 text-sm font-medium', isActive ? 'bg-brand-50 text-brand-700' : 'text-slate-600 hover:bg-slate-100')}>
             <Icon className="h-4 w-4 shrink-0" />{!collapsed && <span className="flex-1">{label}</span>}
